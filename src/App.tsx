@@ -74,7 +74,7 @@ function App() {
 	}
 
   return (
-		<Router>
+		<Router basename="/enflow-react/">
 			<Routes>
 				<Route path="/" element={<LandingPage />} />
 				{/* <Route path="/login" element={<LoginPage />} /> */}
